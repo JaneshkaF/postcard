@@ -6,6 +6,7 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding-bottom: 1%;
 }
 .postcard-header {
 	display: flex;
@@ -13,6 +14,8 @@ body {
 	font-style: italic;
 }
 .postcard-header img {
+	padding-right: 5%;
+	padding-top: 3%;
 	width: 50px;
 	height: 50px;
 }
@@ -43,7 +46,7 @@ input {
 }
 button {
 	background-color: lightskyblue;
-	padding: 5px 10px;
+	padding: 2px 8px;
 	font-family: cursive;
 	border-radius: 50%;
 	transition-duration: 0.4s;
